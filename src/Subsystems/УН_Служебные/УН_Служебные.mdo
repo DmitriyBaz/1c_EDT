@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98050ce5-49bd-4682-a12d-8de522f85121">
+  <name>УН_Служебные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>В данную подсистему включаются объекты, которые не могут быть отнесены ни к подсистеме &quot;Пользовательский интерфейс&quot;, ни к подсистеме &quot;Настройки&quot;</value>
+  </explanation>
+  <content>DefinedType.УН_ЗначениеИзмерения</content>
+  <content>InformationRegister.УН_Измерения</content>
+  <content>Catalog.УН_ИмущественныеКомплексы</content>
+  <content>Catalog.УН_Здания</content>
+  <content>InformationRegister.УН_ЖурналСообщений</content>
+  <content>InformationRegister.УН_СообщенияЖурнала</content>
+  <content>InformationRegister.УН_РеестрНастроек</content>
+  <content>FunctionalOption.УН_ИспользоватьУправлениеНедвижимостью</content>
+  <content>Enum.УН_ПериодичностиНомеровДляОбъектовНумерации</content>
+  <content>InformationRegister.УН_ТекущиеНомераОбъектовНумерации</content>
+  <content>InformationRegister.УН_НомераОбъектовНумерации</content>
+  <content>DataProcessor.УН_ТестированиеСервисаНумерации</content>
+</mdclass:Subsystem>

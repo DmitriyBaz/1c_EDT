@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4f0fe5e-65c4-43d7-8f5e-a5699512bf66">
+  <name>УН_УдалитьУзел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить узел</value>
+  </synonym>
+</mdclass:CommonPicture>

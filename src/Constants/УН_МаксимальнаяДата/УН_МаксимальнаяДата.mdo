@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="071ad6a2-13fe-4ace-937c-934e33c38572">
+  <producedTypes>
+    <managerType typeId="6595bc24-c353-4c48-9d17-3db6f639c80e" valueTypeId="7b536896-6da4-445f-8802-91f6ba898c06"/>
+    <valueManagerType typeId="82bca392-d993-4c88-a4c1-3f319e6e5bc5" valueTypeId="513c2aaf-104b-45d6-a793-8437ea53f7b7"/>
+    <valueKeyType typeId="907278c7-9cc0-4de1-8a8c-daa7da1de11d" valueTypeId="e160cfe2-8fa3-4600-a847-8c8327e4ba84"/>
+  </producedTypes>
+  <name>УН_МаксимальнаяДата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальная дата</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Максимальная дата на уровне системы. Используется для централизованного управления датами.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

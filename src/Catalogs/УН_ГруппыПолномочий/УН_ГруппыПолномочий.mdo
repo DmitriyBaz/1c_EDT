@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51cd119e-c123-4c10-b7f8-bbaabd57f72a">
+  <producedTypes>
+    <objectType typeId="02c4df2f-9c4f-416b-b8cf-b833127bfe2b" valueTypeId="a924ccb5-47bc-4096-916b-736b968a4b76"/>
+    <refType typeId="8ed4371b-f865-4b85-b7cf-af2d03521386" valueTypeId="84b9c715-6eb4-401b-832c-e611fc78d509"/>
+    <selectionType typeId="2219530e-2c01-4d37-ac2d-fb4cc4725b35" valueTypeId="e3a76820-9bb7-4df9-99dc-ec200d9be6bd"/>
+    <listType typeId="a07c6227-e7a9-45a7-8ba9-1cd5bc95078a" valueTypeId="65fee0ab-d0c8-40c3-894c-100d84e73651"/>
+    <managerType typeId="77d6afdc-7320-4173-b484-188b780852e5" valueTypeId="af2fddd5-e512-4b15-b887-67270c1bd22a"/>
+  </producedTypes>
+  <name>УН_ГруппыПолномочий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы полномочий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ГруппыПолномочий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ГруппыПолномочий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа полномочий</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Группы полномочий</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Предназначен для ведения значений, по которым может ограничиваться доступ к бизнес-объектам на уровне отдельных записей. </value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.УН_БизнесОбъекты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.УН_ГруппыПолномочий.Form.ФормаСписка</defaultListForm>
+  <forms uuid="70f4d8cf-0901-4778-b9e9-dab0b1e61c10">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

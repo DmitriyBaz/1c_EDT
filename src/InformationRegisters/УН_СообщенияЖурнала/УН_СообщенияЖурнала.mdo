@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a66f24ca-0f8d-49a6-8a59-e9eb2558f54e">
+  <producedTypes>
+    <selectionType typeId="ca59d34d-fc9b-477f-bb87-7ac714913631" valueTypeId="b74f46e7-9c51-4baa-a17c-c40c4ffc38fe"/>
+    <listType typeId="2a746e47-b539-4278-9748-864b65c29c45" valueTypeId="cd0fe49b-642f-4e3e-bbec-b86f5403c590"/>
+    <managerType typeId="de044c1d-acc7-415b-968d-819477e57d33" valueTypeId="18118aa8-447d-473e-90eb-587bc1ec98de"/>
+    <recordSetType typeId="73184437-f04f-4763-aca1-5de4656cf264" valueTypeId="5d613d7e-ab57-4341-b4e0-a6ade7ec7fd8"/>
+    <recordKeyType typeId="82992252-de84-47e7-85be-d3b14d92a984" valueTypeId="84b461c1-28e4-4898-b5dd-21620065695e"/>
+    <recordType typeId="4ea6879a-6f37-4800-b0e5-07808ee04ca6" valueTypeId="df242e23-8db5-4426-a834-3ea77e1fe551"/>
+    <recordManagerType typeId="da77492a-5786-4752-aa4f-c4e9d84c23fa" valueTypeId="e081562e-81c5-4ede-8b5a-691f627423f8"/>
+  </producedTypes>
+  <name>УН_СообщенияЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал сообщений (данные)</value>
+  </synonym>
+  <comment>D-0001 Журнал сообщений</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="53ad83b2-9346-413b-8982-b4f1ca5130b8">
+    <name>КодПредметнойОбласти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код предметной области</value>
+    </synonym>
+    <comment>Код предметной области сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ff3e953a-c694-4635-8dbf-4d98fa0b3679">
+    <name>НомерСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сообщения</value>
+    </synonym>
+    <comment>Номер сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c12e770-c101-4fe5-87c4-2004ab4a0000">
+    <name>ТипСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщения</value>
+    </synonym>
+    <comment>Фактический тип сообщения в Журнале (с учетом переопределения)</comment>
+    <type>
+      <types>EnumRef.УН_ТипыСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4afdc66b-4b8e-4e0d-be8b-ac142cd0e907">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <comment>Текст шаблона сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="15106e9f-0fe6-4b68-a1e5-1e1b8bbc8eb7">
+    <name>Параметр1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="ad9ded52-04da-43cc-addd-9581cd136e8c">
+    <name>Параметр2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="4901e82b-2384-4f67-a97d-f1a5b3f88b44">
+    <name>Параметр3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="8556d587-5b67-4d5f-8724-f68ab851b692">
+    <name>Параметр4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр4</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="cd8c370b-cc1e-4a1a-820a-204363017acd">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <comment>Внутренний номер сообщения, которое является родительским по отношению к текущему сообщению</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0cbe5a14-0915-4b1d-992a-6bd7697986b5">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="64f6a344-828c-4460-918d-79749694a4d7">
+    <name>СообщениеСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ШаблоныСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="59d32571-291e-4da7-b918-abe4a2511ec3">
+    <name>КлючЖурналаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ журнала сообщений</value>
+    </synonym>
+    <comment>Уникальный идентификатор. Однозначно идентифицирует журнал сообщений.</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fab0a0ee-b110-4d12-904f-f9933ae5dab1">
+    <name>ВнутреннийНомерСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний номер сообщения</value>
+    </synonym>
+    <comment>Порядковый номер сообщения в Журнале (абсолютный номер, уникальный в рамках одного журнала)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fda4fb9-4a2f-4470-b9d2-1bc82984c718">
+  <name>ВыводНаПринтерФайлБуферОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вывод на принтер, в файл, в буфер обмена</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

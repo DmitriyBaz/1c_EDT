@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87d2184d-671f-419d-9be9-c6891f23b5d9">
+  <producedTypes>
+    <objectType typeId="35dee5bb-f1ad-4974-a5a7-4e9d725037e6" valueTypeId="ea312623-211b-4269-acb5-081012a6139b"/>
+    <refType typeId="62e3612a-5eea-4a89-8816-e91f9400c1ff" valueTypeId="3db4a7bc-49f6-429b-b079-f3e59cd22b99"/>
+    <selectionType typeId="f7238271-0002-4944-a433-88a42412bfef" valueTypeId="6e2c7117-1800-4d9b-aa64-b3a0af6950a9"/>
+    <listType typeId="58f8d032-9fb0-4dbf-b153-ab23ac8bc2a9" valueTypeId="418fdf51-e877-44f0-9d5c-98da65034a10"/>
+    <managerType typeId="92cb15c2-431b-47b1-b8ae-c6068f9891a1" valueTypeId="eee4d0d3-55a7-47fa-b153-e353ad433d52"/>
+    <containerType typeId="b609900a-32e5-4950-aeff-c068538f7336" valueTypeId="f551e78b-0a7b-4d5b-8e89-67391db7cb56"/>
+  </producedTypes>
+  <name>ПоляПолномочий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поля полномочий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПоляПолномочий.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПоляПолномочий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.УН_ТипыИмущественныхКомплексов</types>
+    <types>CatalogRef.УН_ТипыЗданий</types>
+    <types>CatalogRef.УН_ГруппыПолномочий</types>
+    <types>CatalogRef.Организации</types>
+    <types>String</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

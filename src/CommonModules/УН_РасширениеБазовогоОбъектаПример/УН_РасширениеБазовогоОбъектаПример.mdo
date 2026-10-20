@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d9b3a36-7cf7-40a6-b9b3-92b11a921a26">
+  <name>УН_РасширениеБазовогоОбъектаПример</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширение базового объекта</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

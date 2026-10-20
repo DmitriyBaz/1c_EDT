@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a98ad714-e805-414f-b327-358e96c978b3">
+  <name>УН_СозданиеПоОбразцу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание по образцу</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

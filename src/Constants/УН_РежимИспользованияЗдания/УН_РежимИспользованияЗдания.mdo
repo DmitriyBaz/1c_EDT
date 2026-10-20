@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5aebfb16-d15e-4ed3-a5fc-b2edf9f65e5c">
+  <producedTypes>
+    <managerType typeId="1c8fd690-940a-4f71-863a-658c653a97f9" valueTypeId="788f7ecb-4972-46e2-beaf-a9b673f87547"/>
+    <valueManagerType typeId="76ffd733-e798-4570-abc1-60ea1b53ef88" valueTypeId="2d713fbc-15ed-4266-92fa-03ed4efb634a"/>
+    <valueKeyType typeId="0c5a4a83-cdb8-4d9f-819d-61d24ce44e48" valueTypeId="50e4b442-f2ef-46e0-9df6-f8e90f80dd21"/>
+  </producedTypes>
+  <name>УН_РежимИспользованияЗдания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим использования здания</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>EnumRef.УН_РежимИспользованияЗдания</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

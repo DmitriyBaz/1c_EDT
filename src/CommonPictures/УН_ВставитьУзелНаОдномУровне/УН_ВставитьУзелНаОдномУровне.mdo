@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07ad3f57-8d7e-444a-904d-ca82f7cd7465">
+  <name>УН_ВставитьУзелНаОдномУровне</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить узел на одном уровне</value>
+  </synonym>
+</mdclass:CommonPicture>

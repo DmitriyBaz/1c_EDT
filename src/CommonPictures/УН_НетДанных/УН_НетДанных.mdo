@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95b7f3d7-144c-4af0-89cf-c25e26ebbd7b">
+  <name>УН_НетДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нет данных</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edff6023-71b7-4b04-8779-e7baa2365071">
+  <name>УН_HTMLСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTML сервис</value>
+  </synonym>
+  <comment>D-0001 Журнал сообщений</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

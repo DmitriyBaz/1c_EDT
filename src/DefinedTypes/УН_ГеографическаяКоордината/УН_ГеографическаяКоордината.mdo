@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0372c6a-694f-44bd-81f9-1038e3cb5509">
+  <producedTypes>
+    <containerType typeId="28eef94c-d5ab-43d4-abc3-94daaec44045" valueTypeId="8e50c5f1-1164-4058-96a2-b4e6d7533268"/>
+  </producedTypes>
+  <name>УН_ГеографическаяКоордината</name>
+  <synonym>
+    <key>ru</key>
+    <value>Географическая координата</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>9</precision>
+      <scale>6</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

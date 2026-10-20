@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45b9a5cb-2cab-4d0b-97ad-5cefb8bd6e24">
+  <producedTypes>
+    <managerType typeId="adf06bda-e989-46ca-8cd2-054849b3b4e2" valueTypeId="e5c4534b-cf68-475d-86f4-b7df9f2f9f08"/>
+    <valueManagerType typeId="a8c77467-0035-43e9-a934-9925fc539a05" valueTypeId="5a2d6d05-512f-4a25-aa17-9f52d6fc712c"/>
+    <valueKeyType typeId="35922c9b-4c98-441f-a00e-9987b791af81" valueTypeId="c0394f2a-b165-492d-862c-351a260944f0"/>
+  </producedTypes>
+  <name>УН_ПомещенияАктивны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помещения активны</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

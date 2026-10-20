@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35ef6311-a08a-4c8c-a307-82bd57d81c3f">
+  <producedTypes>
+    <objectType typeId="85f47541-daa4-41e3-abab-fe769836d7fb" valueTypeId="04003f52-1872-4cdd-a536-fdda35e7bd1c"/>
+    <refType typeId="ecb3cccb-0b11-4ff5-944b-d9c715b88b2d" valueTypeId="a18ea4ef-e124-49de-b853-5abdc8d15bb7"/>
+    <selectionType typeId="215cda61-efcb-4d04-baac-f3cf90876db6" valueTypeId="61adc4f4-4783-44bd-b703-0063941aa611"/>
+    <listType typeId="3e3836ee-aa9e-41c8-aad1-a9310156c1ab" valueTypeId="4f01c31d-e9cc-40f3-a30c-a1e4ae7e44d5"/>
+    <managerType typeId="6285e5d4-f9a2-46a2-ae55-f51098352204" valueTypeId="89256ee1-a844-47bb-92be-527142d23586"/>
+  </producedTypes>
+  <name>УН_ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <comment>Временный справочник единиц измерения для целей разработки.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

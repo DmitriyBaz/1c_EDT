@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3674854c-1a1a-40b0-a6bc-4b8faf397dc2">
+  <producedTypes>
+    <objectType typeId="b0407639-ff0f-44b0-a11b-b5f810db4440" valueTypeId="58faf125-1544-45dc-9efa-d65de9b5504d"/>
+    <refType typeId="a5953e67-2aa3-4ec6-916c-c31ec74b0ee9" valueTypeId="dc2165b3-9ba7-4f04-85aa-e85c567b8c6a"/>
+    <selectionType typeId="9f3975ca-0872-465e-adf4-23e71f193526" valueTypeId="6f34b8e5-589e-41b1-9fc1-38c1ccd4fbd1"/>
+    <listType typeId="ea4cf090-d3fd-452f-9544-938f82e31ce4" valueTypeId="ee4a1b10-6d89-4a71-96a3-506d6450931d"/>
+    <managerType typeId="ec6369ff-b59c-40c3-a775-67e28cff5509" valueTypeId="3ef07ad1-084b-4d85-ac52-841a93a5e7ee"/>
+  </producedTypes>
+  <name>УН_ФункцииДляЗданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции для зданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ФункцииДляЗданий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ФункцииДляЗданий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.УН_ТипыЗданий</owners>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7e45048f-82fa-4cc4-9b76-f88df654c64d">
+    <name>Устарело</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устарело</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c3db8d99-4036-4b5e-a8e1-c69856c2f0fc">
+    <name>ГруппаФункц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа функц</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ОбщиеФункции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

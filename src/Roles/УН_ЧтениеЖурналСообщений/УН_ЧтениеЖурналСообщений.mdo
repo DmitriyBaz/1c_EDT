@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15fad39c-1721-4b2e-b7fc-71d4b36b184d">
+  <name>УН_ЧтениеЖурналСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Журнал сообщений</value>
+  </synonym>
+  <comment>Роль предоставляет полномочия для возможности просмотра данных Журнала сообщений</comment>
+</mdclass:Role>

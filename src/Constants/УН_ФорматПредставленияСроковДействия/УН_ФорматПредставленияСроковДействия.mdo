@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14faf4e7-4a8e-4466-8c04-610840e9fc70">
+  <producedTypes>
+    <managerType typeId="cc04c8f2-d66b-45a2-8be6-85134b59caec" valueTypeId="ffbc5122-c1f7-4db9-92e0-3913fc65688e"/>
+    <valueManagerType typeId="1516e574-816c-4e9c-a819-e521cdef6875" valueTypeId="751e999b-0b27-432c-97ee-50f62fcf48a5"/>
+    <valueKeyType typeId="8ebd878e-f398-4c0b-8dd2-4d4da8ccd851" valueTypeId="8c1b3a50-0ef3-479f-baa5-5fe89c6b62c2"/>
+  </producedTypes>
+  <name>УН_ФорматПредставленияСроковДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат представления сроков действия</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

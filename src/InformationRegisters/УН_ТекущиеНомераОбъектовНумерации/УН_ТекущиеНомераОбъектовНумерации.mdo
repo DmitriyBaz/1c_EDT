@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="833dc284-72e5-44e9-a15c-d188902e8978">
+  <producedTypes>
+    <selectionType typeId="9735e19f-8f29-4043-872c-a689779dc18c" valueTypeId="9b4e8a56-716e-4802-8ffa-0a3ed819a353"/>
+    <listType typeId="ecdb989e-fe88-4a84-b0b7-d3c814828c8d" valueTypeId="e9b34b44-60ce-4ee4-8939-8f755a6e8163"/>
+    <managerType typeId="ae38426b-f806-40f0-a3d2-e62d7d22a572" valueTypeId="44d2f24e-092b-4e51-b192-c9fef7b2f33e"/>
+    <recordSetType typeId="bf7a529b-f62f-436f-ab08-d3712fbe4b9a" valueTypeId="0bf90876-1a7b-432c-b0b3-192de466fbe5"/>
+    <recordKeyType typeId="f0b4da41-613d-456f-bf88-205f854f2930" valueTypeId="8e082320-ecdb-48ee-8ea1-96d22fe92c39"/>
+    <recordType typeId="41bdee7b-808f-41d6-b6fa-2599f1a2a7db" valueTypeId="842896b3-5f9d-4faa-ae1d-aa0de1b045c4"/>
+    <recordManagerType typeId="a5701614-72a0-45fa-85e0-03c7403cb241" valueTypeId="1c490528-60c3-41e7-929e-ea4e82c1b7cf"/>
+  </producedTypes>
+  <name>УН_ТекущиеНомераОбъектовНумерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие номера объектов нумерации</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит значения последнего текущего номера для всех Объектов нумерации</value>
+  </explanation>
+  <resources uuid="e71d0c13-78b7-416d-b89c-3eb2418ce1ab">
+    <name>ТекущийНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="999e223e-6692-4586-a4ac-ab89d427f8b6">
+    <name>ОбъектНумерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект нумерации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ОбъектыНумерации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1d1202ed-6135-48a8-b620-3fb8f41fdaf7">
+    <name>Подобъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подобъект</value>
+    </synonym>
+    <comment>Значение номера объекта, в рамках которого номер должен быть уникальным</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a78c2ed5-5f80-4fb0-92c8-ed104ce10b68">
+    <name>Диапазон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон</value>
+    </synonym>
+    <comment>Номер диапазона</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>  </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5a515c2c-2d8a-4c84-b037-74d481432157">
+    <name>ПериодУникальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период уникальности</value>
+    </synonym>
+    <comment>Дата, в рамках которой номер должен быть уникальным</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

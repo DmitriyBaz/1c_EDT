@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb3e621f-2468-407f-a211-b4b9d28b5f54">
+  <name>УН_ИмущественныйКомплекс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имущественный комплекс</value>
+  </synonym>
+  <comment>Реализует интерфейс объекта Имущественный комплекс</comment>
+  <server>true</server>
+</mdclass:CommonModule>

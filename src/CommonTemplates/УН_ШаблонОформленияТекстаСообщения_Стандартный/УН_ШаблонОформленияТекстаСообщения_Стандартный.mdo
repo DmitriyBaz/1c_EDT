@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2760495d-24b7-4d17-8b58-144ec7f3e762">
+  <name>УН_ШаблонОформленияТекстаСообщения_Стандартный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартный</value>
+  </synonym>
+  <comment>D-0001 Журнал сообщений</comment>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

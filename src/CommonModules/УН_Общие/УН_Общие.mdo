@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02e44575-db57-4c5d-933e-d8041dc72739">
+  <name>УН_Общие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <server>true</server>
+</mdclass:CommonModule>

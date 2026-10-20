@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fce38f6-5815-41ed-a897-d93c7234066b">
+  <producedTypes>
+    <objectType typeId="277f9896-d3a7-452b-a59a-476cfc235316" valueTypeId="10cca76d-caa2-4e86-91df-e6b9a60d5172"/>
+    <managerType typeId="60cb8cb4-b0ee-4888-8c2e-6ef3312d2e24" valueTypeId="879178a7-dcaf-48d3-9e82-6b57b9a11d80"/>
+  </producedTypes>
+  <name>УН_СписокОбъектовНедвижимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список объектов недвижимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.УН_СписокОбъектовНедвижимости.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ff87fe5a-0510-480f-a610-6c9a5a18dc9c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

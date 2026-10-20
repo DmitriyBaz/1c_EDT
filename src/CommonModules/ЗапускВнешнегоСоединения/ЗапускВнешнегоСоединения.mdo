@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6d55450-7c33-4098-ae8e-966f58bbd5d7">
+  <name>ЗапускВнешнегоСоединения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск внешнего соединения</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

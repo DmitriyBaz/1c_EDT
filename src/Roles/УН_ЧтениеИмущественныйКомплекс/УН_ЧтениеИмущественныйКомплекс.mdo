@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c99e9d2e-c934-4706-b92d-644d53a42be6">
+  <name>УН_ЧтениеИмущественныйКомплекс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Имущественного комплекса</value>
+  </synonym>
+  <comment>Роль предоставляет полномочия на просмотр объекта Имущественный комплекс</comment>
+</mdclass:Role>

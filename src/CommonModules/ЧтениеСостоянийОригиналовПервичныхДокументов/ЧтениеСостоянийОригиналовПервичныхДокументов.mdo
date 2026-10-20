@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f642b6c6-e1f2-49db-a8d3-7f8f1702d346">
+  <name>ЧтениеСостоянийОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение состояний оригиналов первичных документов</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

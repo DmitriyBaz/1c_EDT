@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5e9dfa0-c942-4c58-b7d6-578d83a340af">
+  <name>УН_Инструменты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.УН_ЖурналСообщений</content>
+  <content>DataProcessor.УН_ОтчетПоИзменениям</content>
+  <parentSubsystem>Subsystem.УН_УправлениеНедвижимостью</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91a27421-e30b-4f49-bda3-525ae034362c">
+  <name>ЧтениеВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение вариантов отчетов</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

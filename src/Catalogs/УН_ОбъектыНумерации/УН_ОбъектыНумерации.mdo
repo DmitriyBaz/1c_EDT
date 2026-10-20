@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9324c63-4b13-428e-87fb-03be45d23bff">
+  <producedTypes>
+    <objectType typeId="ce3e2ccf-6fcc-4b5a-ba64-73484e942da6" valueTypeId="2e4f102b-784c-4b5c-93f3-23607c28a306"/>
+    <refType typeId="0299d28c-a07f-454e-affe-6e232f5bd515" valueTypeId="77985aa2-7acd-402c-99f2-6c156b495280"/>
+    <selectionType typeId="f7c59728-d910-4c66-8049-88b540e4aa66" valueTypeId="2b09ecd2-6027-406c-98f6-b2bac74da644"/>
+    <listType typeId="d4ab51cf-29d8-44d0-906e-c3d075e20748" valueTypeId="011a66b5-34c4-4f30-b7b2-a3a2f2faec7d"/>
+    <managerType typeId="3a85b8f3-4ba3-4c11-9d0b-14dc715e8723" valueTypeId="683ca79d-bf58-413f-a6ce-356694ca955e"/>
+  </producedTypes>
+  <name>УН_ОбъектыНумерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты нумерации</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ОбъектыНумерации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ОбъектыНумерации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment>Наименование Объекта нумерации</comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект нумерации</value>
+    </synonym>
+    <comment>Идентификатор объекта нумерации</comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Объект нумерации</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УН_ОбъектыНумерации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УН_ОбъектыНумерации.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="7d376f4d-93f2-43a4-adff-a01982e9e959">
+    <name>ПериодичностьНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность номера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УН_ПериодичностиНомеровДляОбъектовНумерации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.УН_ПериодичностиНомеровДляОбъектовНумерации.EnumValue.НеИспользуется</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4e31dbd-f00c-4a11-9672-9d36fd2639ee">
+    <name>Подобъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подобъект</value>
+    </synonym>
+    <comment>Вышестоящий объект, в рамках которого должна вестись нумерация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поле является информационным. Указывается название объекта, в рамках которого ведется нумерация. 
+Пример. Номер объекта &quot;Имущественный комплекс&quot; должен быт уникальным в рамках Организации. Тогда в качестве Подобъекта следует указать &quot;Организация&quot;,  </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf8cad7a-0fa8-48ee-b13e-70aa15aa796c">
+    <name>ДлинаНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина номера</value>
+    </synonym>
+    <comment>Количество символов длины номера</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>4</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>9</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>9</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="64281e9c-310a-4f7c-a64f-5db520e732a3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="893d3891-ebff-4178-82ee-65aaa61ad998">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

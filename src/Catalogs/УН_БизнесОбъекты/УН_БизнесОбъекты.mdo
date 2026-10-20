@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0008461f-ed5a-4aa7-a1e0-3020b4900aa9">
+  <producedTypes>
+    <objectType typeId="9764606c-0cfb-443a-b5f3-556975057365" valueTypeId="71827cbc-1914-488f-8688-212e5c02c6bd"/>
+    <refType typeId="a83a4a4b-b7a5-4d04-888b-5a8315c83725" valueTypeId="5aa9efda-9aa3-41f8-ba9a-f67f5d867387"/>
+    <selectionType typeId="ff8cacf0-70b9-4086-906c-c490b36040a1" valueTypeId="3f0857a3-edfb-425b-b59e-cc4ccec5d47f"/>
+    <listType typeId="bbe15be1-bf87-42b2-ae57-36384ef89f60" valueTypeId="5814a509-d46b-4247-9bff-ed82b4d90c17"/>
+    <managerType typeId="e3747b1e-8eec-43e9-bd8b-384608fedcf7" valueTypeId="75255b66-41fe-4175-8ffe-e7cc0e739af2"/>
+  </producedTypes>
+  <name>УН_БизнесОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес объекты</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_БизнесОбъекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_БизнесОбъекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бизнес-объект</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список бизнес-объектов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d08bee15-4d0b-431d-ba77-16d417c0b911">
+      <name>ДоговорПоНедвижимости</name>
+      <description>Договор по недвижимости</description>
+      <code xsi:type="core:StringValue">
+        <value>ДН</value>
+      </code>
+    </items>
+    <items id="a1f601ef-9480-481f-92a1-da0ede6c7774">
+      <name>Здание</name>
+      <description>Здание</description>
+      <code xsi:type="core:StringValue">
+        <value>ЗД</value>
+      </code>
+    </items>
+    <items id="add34e9f-4b09-4761-9eef-48cf33eab0e4">
+      <name>ЗемельныйУчасток</name>
+      <description>Земельный участок</description>
+      <code xsi:type="core:StringValue">
+        <value>ЗУ</value>
+      </code>
+    </items>
+    <items id="964a1a44-e4c9-41b2-a4a4-bf0ecc0e4ecb">
+      <name>ЗОУИТ</name>
+      <description>ЗОУИТ</description>
+      <code xsi:type="core:StringValue">
+        <value>ЗО</value>
+      </code>
+    </items>
+    <items id="1d66d947-7e63-4cee-b165-0ead9dc953a8">
+      <name>ИК</name>
+      <description>Имущественный комплекс</description>
+      <code xsi:type="core:StringValue">
+        <value>ИК</value>
+      </code>
+    </items>
+    <items id="f91f1795-2952-4155-ad35-e2fa38fcb172">
+      <name>ЛинейныйОбъект</name>
+      <description>Линейный объект</description>
+      <code xsi:type="core:StringValue">
+        <value>ЛО</value>
+      </code>
+    </items>
+    <items id="7cdb9795-d577-4567-bf94-2c6a217165e5">
+      <name>НепрофильныйАктив</name>
+      <description>Непрофильный актив</description>
+      <code xsi:type="core:StringValue">
+        <value>НА</value>
+      </code>
+    </items>
+    <items id="aa212ed1-cccb-4dfd-8998-3dacc7468ade">
+      <name>ОбъектПрава</name>
+      <description>Объект права</description>
+      <code xsi:type="core:StringValue">
+        <value>ОП</value>
+      </code>
+    </items>
+    <items id="24264d89-3ee0-4f49-ae1d-4f8684b2cba1">
+      <name>ОбъектыДляСдачиВАренду</name>
+      <description>Объекты для сдачи в аренду</description>
+      <code xsi:type="core:StringValue">
+        <value>ОС</value>
+      </code>
+    </items>
+    <items id="d94979d8-dcc9-4973-aa6c-0a4919f6eaa2">
+      <name>Организация</name>
+      <description>Организация</description>
+      <code xsi:type="core:StringValue">
+        <value>ОР</value>
+      </code>
+    </items>
+    <items id="345d6319-5016-46f7-9e8a-f859e78b686a">
+      <name>Помещение</name>
+      <description>Помещение</description>
+      <code xsi:type="core:StringValue">
+        <value>ПО</value>
+      </code>
+    </items>
+    <items id="f0c8c3c8-0cf4-47e7-8479-1b244f213c8f">
+      <name>Этаж</name>
+      <description>Этаж</description>
+      <code xsi:type="core:StringValue">
+        <value>ЭТ</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УН_БизнесОбъекты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УН_БизнесОбъекты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9210e5c0-3954-405d-95cf-9730a3db2779">
+    <name>КраткаяДлина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткая длина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="452d6c4e-ac01-4ebf-86e1-612770ecee9a">
+    <name>ВышестоящийОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вышестоящий объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_БизнесОбъекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b63da07-e403-48fd-b39a-d19e39ffebb4">
+    <name>Пиктограмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиктограмма</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f2cfbc7-dc50-4e96-8e48-d440a37b3f03">
+    <name>ОбъектНумерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект нумерации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ОбъектыНумерации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e666948-a57d-479f-9260-f6c937ff91db">
+    <name>ОбъектЖурналаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект журнала сообщений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ОбъектыЖурналаСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="397a0ce3-e01e-49ad-ab0a-00aa5c6c3ffa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="76c5a8fb-e047-462f-bb8e-c1e22a4e3af3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc3a9adf-21f5-4518-b5ca-71b08992314d">
+  <name>УН_ВставитьНаПодчиненномУровне</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить на подчиненном уровне</value>
+  </synonym>
+</mdclass:CommonPicture>

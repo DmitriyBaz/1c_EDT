@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="025cfe8d-f282-4654-af91-febe7a703ab9">
+  <name>УН_СписокСообщенийКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал сообщений клиент</value>
+  </synonym>
+  <comment>D-0001 Журнал сообщений</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7322536-3f6c-4ec9-935f-2730e44406fc">
+  <name>УН_ИспользованиеОбработкиНавигатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки Навигатор</value>
+  </synonym>
+  <comment>Роль предоставляет полномочия для работы с АРМ Навигатор</comment>
+</mdclass:Role>

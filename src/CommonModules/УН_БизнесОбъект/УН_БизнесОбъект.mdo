@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dd63e8b-6bb4-4269-a017-49e1d248fe98">
+  <name>УН_БизнесОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-объект</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <server>true</server>
+</mdclass:CommonModule>

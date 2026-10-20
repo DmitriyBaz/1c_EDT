@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2ce2daa-3740-4a7b-8746-e47166155faa">
+  <producedTypes>
+    <containerType typeId="b82e534b-85c8-44e8-888e-496b74b551da" valueTypeId="e19d09d2-97a2-4ec1-a52d-03141a090216"/>
+  </producedTypes>
+  <name>УН_КадастровыйНомер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадастровый номер</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="415b47c6-15b8-48b9-a03f-40024e695c09">
+  <producedTypes>
+    <refType typeId="35011d8c-8705-41c3-8a1b-f7bfffb58ae3" valueTypeId="4886faa1-e320-458c-b153-e7408436c815"/>
+    <listType typeId="0091be48-1586-4aa7-a883-6696d2898cdb" valueTypeId="13a83dcc-7cd4-402b-a566-71f826792397"/>
+    <managerType typeId="faa7bd8d-2e4d-423c-b1cf-e7dc7fe3a7e6" valueTypeId="60ca7401-0b7a-4aa2-bdf7-cbddc5129df4"/>
+  </producedTypes>
+  <name>УН_РежимИспользованияЗдания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим использования здания</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет вариант использования для Зданий и Этажей несколькими Организациями.</value>
+  </explanation>
+  <enumValues uuid="faaa5362-771d-4640-bc07-62fe654b8bd5">
+    <name>СовместноеИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совместное использование</value>
+    </synonym>
+    <comment>Основные данные объектов недвижимости (Здания и Этажи) могут использоваться совместно несколькими Организациями</comment>
+  </enumValues>
+  <enumValues uuid="91b4b038-d80b-4e00-bb22-8af339515672">
+    <name>ИндивидуальноеИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальное использование</value>
+    </synonym>
+    <comment>Для каждой Организации Здания и Этажи выедутся обособлено</comment>
+  </enumValues>
+</mdclass:Enum>

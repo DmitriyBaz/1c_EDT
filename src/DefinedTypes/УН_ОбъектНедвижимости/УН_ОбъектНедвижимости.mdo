@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2060bcc1-7b2c-48f1-8487-228562772b08">
+  <producedTypes>
+    <containerType typeId="4f0bac71-a675-474d-bf47-96b565023630" valueTypeId="aee3d564-dbd9-405b-b20a-c7e813dd98c0"/>
+  </producedTypes>
+  <name>УН_ОбъектНедвижимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект недвижимости</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УН_Здания</types>
+    <types>String</types>
+    <types>CatalogRef.УН_ИмущественныеКомплексы</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

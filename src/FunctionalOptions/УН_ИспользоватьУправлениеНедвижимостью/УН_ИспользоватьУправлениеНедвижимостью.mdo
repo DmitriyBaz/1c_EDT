@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e4130dc-b6ce-400a-a31b-6489e98cfac3">
+  <name>УН_ИспользоватьУправлениеНедвижимостью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Управление недвижимостью</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <location>Constant.УН_УправлениеИмуществомАктивно</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.УН_АктивацияБизнесОбъектов</content>
+  <content>CommonForm.УН_СрокиДействия</content>
+  <content>Constant.УН_ЗданияАктивны</content>
+  <content>Constant.УН_ЗемельныеУчасткиАктивны</content>
+  <content>Constant.УН_ЛинейныеОбъектыАктивны</content>
+  <content>Constant.УН_ЭтажиАктивны</content>
+  <content>Constant.УН_ПомещенияАктивны</content>
+  <content>Constant.УН_ОбъектыАрендыАктивны</content>
+  <content>Constant.УН_ОбъектыПраваАктивны</content>
+  <content>Constant.УН_ЗоныОУИТАктивны</content>
+  <content>Constant.УН_ДоговорыПоНедвижимостиАктивны</content>
+  <content>Constant.УН_ЗаявкиНаОбслуживаниеАктивны</content>
+  <content>Constant.УН_ФорматПредставленияСроковДействия</content>
+  <content>Constant.УН_РежимИспользованияЗдания</content>
+  <content>Constant.УН_МинимальнаяДата</content>
+  <content>Constant.УН_МаксимальнаяДата</content>
+  <content>Catalog.УН_ИмущественныеКомплексы</content>
+  <content>Catalog.УН_ТипыИмущественныхКомплексов</content>
+  <content>Catalog.УН_БизнесОбъекты</content>
+  <content>Catalog.УН_ВидыИзмерений</content>
+  <content>Catalog.УН_ЕдиницыИзмерения</content>
+  <content>Catalog.УН_ФункцииДляИмущественныхКомплексов</content>
+  <content>Catalog.УН_ФункцииДляЗданий</content>
+  <content>Catalog.УН_ТипыЗданий</content>
+  <content>Catalog.УН_ОбщиеФункции</content>
+  <content>Catalog.УН_СтатусныеСхемы</content>
+  <content>Catalog.УН_ГруппыОбъектов</content>
+  <content>DataProcessor.УН_Навигатор</content>
+  <content>Subsystem.УН_УправлениеНедвижимостью.Subsystem.УН_ОсновныеДанные</content>
+  <content>Subsystem.УН_УправлениеНедвижимостью.Subsystem.УН_Инструменты</content>
+</mdclass:FunctionalOption>

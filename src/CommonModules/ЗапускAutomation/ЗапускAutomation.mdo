@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97c05f67-8755-4971-b93a-fd90d8fd9879">
+  <name>ЗапускAutomation</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск Automation</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

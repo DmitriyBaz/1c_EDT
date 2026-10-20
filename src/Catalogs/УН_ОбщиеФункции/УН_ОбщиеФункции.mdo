@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0ab7b30-7381-4aab-a1f2-5ef17b7ea27e">
+  <producedTypes>
+    <objectType typeId="ca7142a6-7438-4024-b716-b2b4429e1c59" valueTypeId="1b143371-442c-4f70-92a9-4729d6611c16"/>
+    <refType typeId="5db81c0d-6e08-4d4e-afba-cd72ef12e663" valueTypeId="a502218e-09c5-4922-867e-029d5d3e8a08"/>
+    <selectionType typeId="269f84f9-7d33-439f-84ed-73b73551209e" valueTypeId="177311ea-918b-4c29-b718-26beeaef151c"/>
+    <listType typeId="3dbc2151-06aa-4df6-888c-a3f5f0eaba7b" valueTypeId="b4bc31c6-70a2-43bb-813d-77f4df1ae885"/>
+    <managerType typeId="a23ec9a0-0159-4b65-954b-bf6a95adddcb" valueTypeId="d33680a6-51cf-460b-a7c0-d986edacbd7f"/>
+  </producedTypes>
+  <name>УН_ОбщиеФункции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие функции</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ОбщиеФункции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ОбщиеФункции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Общая функция</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Общие функции</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Предназначен для группировки / объединения разных функциональных назначений общей категорией. Особенность данного справочника в том, что он позволяет вести общую категорию, которая будет единой для разных типов объектов: Имущественный комплекс, Здание и т.д. </value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

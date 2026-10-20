@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bf4ecc5-4cab-4762-a3d7-27ad2e6010b6">
+  <producedTypes>
+    <selectionType typeId="75757c54-31c7-47ed-a0f0-57929143826e" valueTypeId="99df2a7a-8fc0-4cc9-bf7d-04468d567019"/>
+    <listType typeId="e3b2ac6a-af41-43cc-a1d0-f6057640044c" valueTypeId="e0491af6-cd47-45d0-ac20-c9dba9b00567"/>
+    <managerType typeId="851f2486-dcc5-4246-9a0b-32e21ae8eaea" valueTypeId="fdf3a333-55af-4164-81db-b9fd8c046c1f"/>
+    <recordSetType typeId="ff954d05-8ace-410e-bc06-ccd35cf1cb9d" valueTypeId="f5f19c4d-7cfd-4eae-bf34-2ae7d277054b"/>
+    <recordKeyType typeId="37f55b65-f8cf-4d12-9fee-eba6a0697152" valueTypeId="179f5ee6-b317-493d-9b71-289cd5977f06"/>
+    <recordType typeId="8d8ac7bb-913e-492f-aea6-c5a9f318489b" valueTypeId="2ee412cc-d0dd-43c5-8348-3f21df7a7f94"/>
+    <recordManagerType typeId="44894a54-4173-4870-b46d-beeb3da76609" valueTypeId="6c31e135-277a-441f-9dbf-974bbaebf324"/>
+  </producedTypes>
+  <name>УН_ЖурналСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал сообщений (заголовок)</value>
+  </synonym>
+  <comment>D-0001 Журнал сообщений</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8011df7a-1335-4d54-bfd7-94b001deeebb">
+    <name>КоличествоОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибок</value>
+    </synonym>
+    <comment>Количество сообщений с типом &quot;Ошибка&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ad313deb-acd2-48e9-8c3d-9f368c92184e">
+    <name>КоличествоПредупреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждения</value>
+    </synonym>
+    <comment>Количество сообщений с типом &quot;Предупреждение&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="be77b747-07e2-44e2-872e-70d01215a0fd">
+    <name>КоличествоИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационных</value>
+    </synonym>
+    <comment>Количество сообщений с типом &quot;Информация&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d3254be7-c935-4c94-af68-575fcf5602ca">
+    <name>КоличествоВсего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего</value>
+    </synonym>
+    <comment>Общее количество сообщений в Журнале</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="71fc7b3b-3347-4003-a130-4cb100a191c3">
+    <name>ВнутреннийКлюч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний ключ</value>
+    </synonym>
+    <comment>Пользовательский идентификатор. Не уникальный. Может содержать идентификатор объекта бизнес-объекта или процесса/операции. Используется для поиска Журналов, относящихся к определенному бизнес-объекту или процессу. </comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                                  </value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="6675a1e9-cc74-4f8b-8c37-767423422f1d">
+    <name>ОбъектЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект журнала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ОбъектыЖурналаСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2f367482-11b6-4733-a55f-e07eff989c7b">
+    <name>ДатаВремяСозданияUTC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время создания (UTC)</value>
+    </synonym>
+    <comment>Дата и время создания журнала в универсальном формате</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de1c67e5-a09b-41a9-b88c-733ad21b7379">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Пользователь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a6081e3-c032-470c-9a59-1e56c99cc4f9">
+    <name>ИмяПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="c7fa3d85-0c7a-45ed-8fd2-37c08081b434">
+    <name>ИмяКомпьютера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя компьютера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="142fba73-4c21-49bd-87ec-c36bc9f5abc8">
+    <name>IPАдресКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>IPАдрес клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="a209c32e-2de4-4a4d-a816-120e0bc1a8e1">
+    <name>НомерСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0fed8ee6-a6a0-4c05-9a21-243d925e6f3b">
+    <name>КлючЖурналаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ журнала сообщений</value>
+    </synonym>
+    <comment>Уникальный идентификатор. Однозначно идентифицирует журнал сообщений.</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

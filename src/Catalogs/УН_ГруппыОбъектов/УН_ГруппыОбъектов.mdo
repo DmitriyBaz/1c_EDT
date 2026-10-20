@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f9a60bd-027c-4347-a2ae-ef5a0be1f509">
+  <producedTypes>
+    <objectType typeId="0282930d-f5fb-4899-a776-ccf39730433f" valueTypeId="0ab0e8f0-79b4-4450-9469-06d109187c0d"/>
+    <refType typeId="119b1e9c-72ca-4c39-a02d-f46b7c62b086" valueTypeId="09451751-646b-4252-9d54-43d7ac35d81a"/>
+    <selectionType typeId="a748b9c5-6f5b-4517-9328-baf5aa644c22" valueTypeId="bc2f47f3-3d4f-45d5-b38d-715e98553579"/>
+    <listType typeId="96b77944-7248-44bc-99d7-c8fd772713b4" valueTypeId="848d075f-be00-4ec3-8bc6-b35b96cfb871"/>
+    <managerType typeId="13ac3d7c-fe32-4d78-ac6f-2680810bd8e0" valueTypeId="6118ccc3-11b5-48a0-a18f-e72427c922b4"/>
+  </producedTypes>
+  <name>УН_ГруппыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ГруппыОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ГруппыОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bc1c2ea7-287a-4aaf-a943-0b0e159fe6b3">
+    <name>ТипОБъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип о бъекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_БизнесОбъекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5a28f88b-6bbb-458c-8636-b04c1248fc6c">
+    <producedTypes>
+      <objectType typeId="b04a8a1a-7a02-47a6-a288-6432dbce29e8" valueTypeId="412ee908-ca49-4d9a-b216-cd30804e08be"/>
+      <rowType typeId="de6b9790-608b-4bc6-95d0-becc77a31766" valueTypeId="df947c5d-3322-4f3b-9ef4-1d315ecae487"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <attributes uuid="5410b48c-0466-4b5c-8245-cfbc27bf5231">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>DefinedType.УН_ОбъектНедвижимости</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

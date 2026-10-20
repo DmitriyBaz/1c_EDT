@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e018c868-123c-435d-ada7-e904586e6a5e">
+  <producedTypes>
+    <containerType typeId="70ace7d4-ad0e-4096-a7e6-bf5e2ada081e" valueTypeId="b7d5def3-d88d-4e3b-bf5e-98be75431388"/>
+  </producedTypes>
+  <name>УН_Идентификатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

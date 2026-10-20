@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f12de5d4-d83c-4ebf-89fd-2760dc680b0e">
+  <name>УН_НастройкиКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки (клиент, сервер)</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8fab9f2-c469-4755-81cb-e255abc2175f">
+  <producedTypes>
+    <selectionType typeId="086ee977-bc96-4acb-b128-899066d0077a" valueTypeId="3fdb90ca-f785-4dbc-8506-3e3d530142ef"/>
+    <listType typeId="2d8968e3-c8cc-44aa-a76e-e3a12584b52f" valueTypeId="30e1cf0c-188b-4872-8c37-f546105e7921"/>
+    <managerType typeId="c1dd22b7-4d29-47fc-a362-36d52dc51dd3" valueTypeId="7bc5eac5-bf68-4d59-8f17-c18f491fbfb2"/>
+    <recordSetType typeId="4f2df9b3-d1de-4216-8792-3f0397954606" valueTypeId="e40c3405-8074-460e-a02a-e8b6e8e7f3db"/>
+    <recordKeyType typeId="2a35ed3b-d4c2-48bf-9af4-a9e69765dd23" valueTypeId="2381295f-1a1f-4863-9796-dcde82558835"/>
+    <recordType typeId="4f2d11ee-388a-4a44-905b-d55df97a9ab9" valueTypeId="73d850b5-0ec7-4121-9e93-12a7bc9c87ca"/>
+    <recordManagerType typeId="b435fec9-fb47-4427-ba77-7d0f4a436860" valueTypeId="99fe852d-ff02-41a5-8fad-c840bf3860c3"/>
+  </producedTypes>
+  <name>УН_ДиапазоныНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диапазоны номеров</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УН_ДиапазоныНомеров.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Диапазон</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Настройка диапазона</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Диапазоны номеров</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Настройка диапазона номеров для объекта нумерации</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка диапазонов номеров</value>
+  </explanation>
+  <attributes uuid="da96e847-2da4-4fc1-808c-6a18f571cc04">
+    <name>НачальноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=9; ЧВН=; ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=9; ЧВН=; ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2ff0ec7-0967-4de0-8388-67bacf11345d">
+    <name>КонечноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечное значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=9; ЧВН=; ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=9; ЧВН=; ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="17cbd3c0-f036-4137-a7b6-b36fa8f74496">
+    <name>Автонумерация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автонумерация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8406cb37-0af6-40cc-9cae-b80096392205">
+    <name>ИспользоватьПрефикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать префикс</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8b38449a-c952-435e-8b39-072fd5e82215">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>   </value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="f8d4e250-b598-4b0e-9ff8-343f4c11338c">
+    <name>ОбъектНумерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект нумерации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ОбъектыНумерации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4efac9cb-7ae7-460d-a891-59297e0aab44">
+    <name>НомерДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер диапазона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>  </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f1443ff5-d6e5-40cc-8e13-a8411410cc9b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

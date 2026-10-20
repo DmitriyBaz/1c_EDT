@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="999e8bd9-e3d1-46a7-be79-c08a6e1d696d">
+  <name>ДобавлениеИзменениеВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение вариантов отчетов</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

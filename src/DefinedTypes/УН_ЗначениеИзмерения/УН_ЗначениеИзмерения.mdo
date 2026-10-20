@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c026304c-6243-4ec7-a140-baf60e4a9ee6">
+  <producedTypes>
+    <containerType typeId="a982c7a6-c31f-4bfa-b53f-b4fd80ba654d" valueTypeId="624757d8-6ece-4ed7-b018-2973322fd7f3"/>
+  </producedTypes>
+  <name>УН_ЗначениеИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение измерения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>17</precision>
+      <scale>4</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

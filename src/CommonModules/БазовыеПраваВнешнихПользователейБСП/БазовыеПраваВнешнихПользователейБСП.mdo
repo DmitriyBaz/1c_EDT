@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25993af1-737e-4575-9ff0-a5760389f0b2">
+  <name>БазовыеПраваВнешнихПользователейБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права внешних пользователей БСП</value>
+  </synonym>
+  <comment>Базовые права, которые должны быть у любого внешнего пользователя.</comment>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

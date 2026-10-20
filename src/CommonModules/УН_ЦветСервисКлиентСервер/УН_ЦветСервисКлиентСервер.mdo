@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="311513a8-6489-4632-a586-3d48ba76efba">
+  <name>УН_ЦветСервисКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет сервис</value>
+  </synonym>
+  <comment>D-0001 Журнал сообщений</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fffbf7ca-2390-4fb6-aad0-460b56478c7b">
+  <name>УН_БазовыйОбъектРасширениеФабрика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фабрика расширений базового объекта</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="523e452d-5f5d-44b8-a852-32ece675dbba">
+  <name>РежимТехническогоСпециалиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим технического специалиста</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

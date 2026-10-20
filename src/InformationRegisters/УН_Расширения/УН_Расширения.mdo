@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56ffe11b-487c-4c24-8412-a0a8d68048d5">
+  <producedTypes>
+    <selectionType typeId="61febbff-7a70-430a-86f7-b6180ff71029" valueTypeId="47909f4c-f353-4769-902c-85081d1c2792"/>
+    <listType typeId="de215ab1-9731-4107-8e5f-ea35e57c10e8" valueTypeId="694f8f04-41ed-495a-b478-9055494cd615"/>
+    <managerType typeId="7ffe561a-4e61-4c91-b065-a44c34a5163a" valueTypeId="2efaca60-fe1f-4e15-9a71-71d95809d30c"/>
+    <recordSetType typeId="68a358bc-0fe0-48c7-8960-3397de49b40f" valueTypeId="07ee772a-d266-4478-8f75-08f7872cd002"/>
+    <recordKeyType typeId="7ad6ef95-6eed-4fc9-938d-3b549d26c955" valueTypeId="cca35617-cf57-4da2-b0b1-78e4fad5282c"/>
+    <recordType typeId="3e2fb039-ed6c-4abf-9194-b93111529092" valueTypeId="2f4ebd86-2144-460f-844f-ec606856e6e0"/>
+    <recordManagerType typeId="e9965c47-bebd-49ff-9e58-b92a23960271" valueTypeId="9a47afc3-4508-443f-b166-ae1ee396a140"/>
+  </producedTypes>
+  <name>УН_Расширения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="18ff09f2-0842-43b7-9ac5-aa60638ab218">
+    <name>ОбъектМетаданныхРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="cc7757a4-aba9-43b4-9f15-7bb0dec4fd9a">
+    <name>РасширениеАктивно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение активно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6f66c301-f216-44b9-9b19-98167853dd37">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="981fa74c-dc22-453a-9dcb-077515ec668d">
+    <name>ЗначениеКлючевогоРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ключевого реквизита</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>    </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="80ebd10d-df4a-4799-adb1-71565516f39d">
+    <name>ИмяРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

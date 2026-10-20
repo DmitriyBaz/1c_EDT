@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb880ea2-5672-4b6b-bc23-317316e86533">
+  <producedTypes>
+    <selectionType typeId="3cd357c0-3898-4141-81bf-2cd5027b587e" valueTypeId="887875f6-3a0a-4a89-af74-6c83c120e1dc"/>
+    <listType typeId="a7f69f01-50d8-428d-8a71-e6e55db35754" valueTypeId="0cb22e7c-8f93-4b6a-875e-401b4ff9ece1"/>
+    <managerType typeId="246ca0f3-fedc-4852-becb-05f1d5e10bc3" valueTypeId="204ff6d7-b4ec-40ab-9873-7ad857143cc0"/>
+    <recordSetType typeId="1df2f473-bbe1-4a62-8ef2-af0cb3d5def6" valueTypeId="8f6d9012-ca2d-4ca5-97d3-20e676c26c61"/>
+    <recordKeyType typeId="8dda81f3-a6c0-46a5-acec-daa4b45025f7" valueTypeId="3858248d-4750-4553-b373-9f9a39446b3f"/>
+    <recordType typeId="7d5f5abb-ec15-4b6f-b157-0f1100796691" valueTypeId="2f50814e-cee7-4d0a-aaa1-1eefb2ccce49"/>
+    <recordManagerType typeId="d434ea75-80d8-44be-acca-b3354ef7e78b" valueTypeId="3314dc65-b210-4a2c-8bad-d5c5c69e4dbf"/>
+  </producedTypes>
+  <name>УН_НастройкаСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка сообщений</value>
+  </synonym>
+  <comment>D-0001 Журнал сообщений</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УН_НастройкаСообщений.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УН_НастройкаСообщений.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="17a248eb-6080-4f75-9834-47d023880ada">
+    <name>ТипСообщенияЦелевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщения (целевой)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УН_ТипыСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef03a108-5c97-47fb-91d4-7fe3822ba058">
+    <name>ПоследнимИзменил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последним изменил</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Пользователь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00723534-026e-407b-be3f-6b1a2d71f3b3">
+    <name>ДатаВремяИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="2255c9e8-b24a-4983-8667-76e688bc0aeb">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ШаблоныСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cb5f104f-3081-4258-8124-912f78432e45">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Пользователь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7ccc0d62-f8d1-41f5-9c79-2f96b0adc07d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="797aff19-b837-41f0-8bfa-59da2a63691a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f2be300-7af5-4d15-b50f-d5fe9bdbc5a5">
+  <name>ДобавлениеИзменениеКалендарныхГрафиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение календарных графиков</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

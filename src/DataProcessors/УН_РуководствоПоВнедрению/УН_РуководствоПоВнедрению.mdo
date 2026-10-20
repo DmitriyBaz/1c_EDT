@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="211db441-9d10-40f2-9f90-b95673ecbd61">
+  <producedTypes>
+    <objectType typeId="151f2d92-ede9-4083-8c7f-f56cfa408a38" valueTypeId="5fc7d9bc-4151-4e71-a270-74bebdcaeeb2"/>
+    <managerType typeId="c99314bf-0cee-4a72-84b5-64c52c50c47d" valueTypeId="6e1518f4-be0e-4248-b6bd-6b787e3c2c1e"/>
+  </producedTypes>
+  <name>УН_РуководствоПоВнедрению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководство по внедрению</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УН_РуководствоПоВнедрению.Form.Форма</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Инструмент для централизованного выполнения настроек решения. Содержит список настроек, сгруппированных и упорядоченных особым образом и документацию по их выполнению.</value>
+  </explanation>
+  <forms uuid="c811669e-ff21-44cb-9120-c86d9a5bcb59">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

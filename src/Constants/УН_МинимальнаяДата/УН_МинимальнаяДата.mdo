@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80134940-c779-4b12-bfd8-d4d439bc22db">
+  <producedTypes>
+    <managerType typeId="be0d231f-a0ed-455c-9562-0aae66d9df3b" valueTypeId="6a54828c-cd6c-49e1-b8cd-edf4756ba7f4"/>
+    <valueManagerType typeId="702fec1a-28bc-4e92-be3d-e38f074ad948" valueTypeId="ec683e4e-bb96-43d3-82b3-a5da402c339f"/>
+    <valueKeyType typeId="60b5f397-9f78-41af-898b-01d72cabf2ff" valueTypeId="3812c13d-7d44-41be-8b2d-3270eb886bae"/>
+  </producedTypes>
+  <name>УН_МинимальнаяДата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальная дата</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Минимальная дата на уровне системы. Используется для централизованного управления датами.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e14e7e32-7572-4d6f-917c-e74f9324e84a">
+  <name>УН_УправлениеНедвижимостью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление недвижимостью</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>УН_ОсновныеДанные</subsystems>
+  <subsystems>УН_Инструменты</subsystems>
+</mdclass:Subsystem>

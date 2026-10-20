@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="912997dc-24f5-439e-bc81-7486c68a213f">
+  <name>ИзменениеСостоянийОригиналовПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение состояний оригиналов первичных документов</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

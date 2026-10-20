@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67dcc7bd-eaae-41c4-b0b1-61777bf67605">
+  <producedTypes>
+    <objectType typeId="94ac331a-c4a3-4f74-8595-7f14c11784ac" valueTypeId="79590ac7-da03-4845-8e16-f150feece3a2"/>
+    <refType typeId="92fac70f-7fe2-4a48-a23a-8cb895d6ae6b" valueTypeId="53c7989e-03a2-4c95-9b26-da9163722e9a"/>
+    <selectionType typeId="30e04c8b-3b0c-47db-b7eb-709fbbc1a2c7" valueTypeId="ef900a83-c999-4076-8c12-69eab3986913"/>
+    <listType typeId="11a89e8c-a857-4adf-a027-6a945d4dcc79" valueTypeId="0789a849-c76f-4816-908b-b785a1f3bb7f"/>
+    <managerType typeId="fc937bc4-e885-4551-8d97-ef4ccc5b2f7e" valueTypeId="95edf2fb-408c-4401-890e-4b93b69f565b"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <comment>Временный объект для целей тестирования разработываемой функциональности. </comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Название справочника не содержит префикс &quot;УН_&quot;, специфичный для решения, т.к. данный справочник используется при настройке доступов на уровне отдельных записей RLS, чтобы не изменять и не настраивать дополнительно виды доступа в целевой конфигурации.</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a75427e3-41f3-4b29-8d62-6c07f2873f59">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

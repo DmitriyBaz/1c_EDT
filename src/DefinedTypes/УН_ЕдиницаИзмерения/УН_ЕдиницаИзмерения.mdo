@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cb41573-5d3f-44ce-b681-1c917a788af3">
+  <producedTypes>
+    <containerType typeId="aa91944c-2eee-48ab-afd0-0a14e5e25cdf" valueTypeId="03408aed-2f79-439d-a157-1c2cfc15309e"/>
+  </producedTypes>
+  <name>УН_ЕдиницаИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>CatalogRef.УН_ЕдиницыИзмерения</types>
+  </type>
+</mdclass:DefinedType>

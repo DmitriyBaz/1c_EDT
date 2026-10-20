@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="194c3c93-e67c-4199-84a2-0ed8a859a987">
+  <name>УН_ДобавлениеИзменениеИмущественныйКомплекс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение Имущественного комплекса</value>
+  </synonym>
+  <comment>Роль предоставляет полномочия на создание и изменение объекта Имущественный комплекс</comment>
+</mdclass:Role>

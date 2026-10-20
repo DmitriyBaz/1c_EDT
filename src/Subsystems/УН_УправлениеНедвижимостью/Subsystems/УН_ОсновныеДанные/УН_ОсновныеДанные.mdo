@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aa708ba-5a6e-428e-9d1f-ebec64c43818">
+  <name>УН_ОсновныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.УН_Навигатор</content>
+  <content>Catalog.УН_ИмущественныеКомплексы</content>
+  <content>Report.УН_СписокОбъектовНедвижимости</content>
+  <parentSubsystem>Subsystem.УН_УправлениеНедвижимостью</parentSubsystem>
+</mdclass:Subsystem>

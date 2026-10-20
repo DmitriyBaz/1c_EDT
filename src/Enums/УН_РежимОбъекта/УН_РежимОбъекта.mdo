@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de618113-d15c-4aa1-a93f-5a5aa9554a3e">
+  <producedTypes>
+    <refType typeId="264037a8-aee9-4509-a7b0-4720c06398bd" valueTypeId="0cafa5d1-538c-45e3-a956-736fd6b6b8ed"/>
+    <listType typeId="9c99a81e-a33a-4484-8178-f3bb0b62a800" valueTypeId="84fa101c-a0e8-44be-8e42-13aa40320950"/>
+    <managerType typeId="ff774860-0abc-43d6-96a5-e83620c315ba" valueTypeId="723b834e-b9d6-428e-b04a-7a5bfd20ea4b"/>
+  </producedTypes>
+  <name>УН_РежимОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим</value>
+  </synonym>
+  <comment>Режим объекта недвижимости: Создание, Изменение, Просмотр</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fad34759-cc4f-4055-84e6-11f2a578b04c">
+    <name>Создание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f87d41d4-64a5-458e-9236-ed335aa8ef59">
+    <name>Изменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f73a3fda-906a-4912-8f3c-5c2412ca5124">
+    <name>Просмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

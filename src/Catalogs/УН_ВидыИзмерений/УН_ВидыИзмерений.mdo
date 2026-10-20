@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27e363e-8f6d-42aa-b69e-57c31a9008cf">
+  <producedTypes>
+    <objectType typeId="e407763f-a38b-4467-8eda-9ce108496857" valueTypeId="70b241bc-0185-437e-b1ca-222e03fd4241"/>
+    <refType typeId="23f903c3-c263-427c-be2c-314e444cc625" valueTypeId="f7fa0079-cb07-441e-b482-a7a7a7885ae6"/>
+    <selectionType typeId="3b15b711-fd87-4aed-a79e-780990d0bdad" valueTypeId="d612fab2-f2b9-4d3c-b0d6-15df61b685fc"/>
+    <listType typeId="4e00e426-4f7d-47e7-ab3a-d2650068694a" valueTypeId="5d3659dc-ec5b-4f58-925a-f5cccee9a9a3"/>
+    <managerType typeId="d5a7ac39-f731-44d6-93db-f0443ed7c76c" valueTypeId="c43fc72f-b8e4-432f-9120-986d1b24e304"/>
+  </producedTypes>
+  <name>УН_ВидыИзмерений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды измерений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ВидыИзмерений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ВидыИзмерений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="210084d6-1296-4349-a31c-2bac46a97232">
+    <name>ЕдиницаИзмеренияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения по умолчанию</value>
+    </synonym>
+    <comment>Единица измерения по умолчанию. Может быть переопределена пользователем.</comment>
+    <type>
+      <types>DefinedType.УН_ЕдиницаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65c569d5-9b2e-4b86-b12e-c007392812a9">
+    <name>Устарело</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устарело</value>
+    </synonym>
+    <comment>Если признак установлен, значение не доступно для выбора при создании новых записей об измерениях. Ранее созданные записи отображаются без ограничений.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

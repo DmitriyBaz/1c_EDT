@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55002cc7-cfcf-4a31-b54a-7367a66d6b5f">
+  <producedTypes>
+    <selectionType typeId="301818f2-4d96-4128-bb46-540409af37c1" valueTypeId="c4c362c8-c6cf-4829-b415-74ce9ecb3bf3"/>
+    <listType typeId="388701be-27eb-4708-b2c3-38e2c110454d" valueTypeId="9bd9ebef-dfc4-4d73-b3d7-ae915b239cfa"/>
+    <managerType typeId="be0bae23-aa07-481e-aa5a-044ab50314a8" valueTypeId="e936037c-2470-4d16-b8bc-fb39c02b8787"/>
+    <recordSetType typeId="59394a83-e69f-41af-a977-a2baae819352" valueTypeId="80819a52-0b0d-4f05-88d8-0dc94353f565"/>
+    <recordKeyType typeId="e8c18cb0-3d5a-4fd3-b103-916b05a07896" valueTypeId="85e798ff-5074-4b67-b568-04744a579a5d"/>
+    <recordType typeId="e3bab7b2-e92c-428e-bb9d-a971bf5ddce1" valueTypeId="69c5e1bb-047b-4be1-91b0-b953b9db96c9"/>
+    <recordManagerType typeId="5a00f7ad-d280-4db2-8bab-72e0d8a8bf3d" valueTypeId="76b388a1-781c-4914-b02a-d2517a8acc08"/>
+  </producedTypes>
+  <name>УН_Измерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="22026104-b1b6-498c-8da4-2d3b8bf40ceb">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УН_ЗначениеИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="199f3228-27c3-4de3-b714-62c8a8fdcb77">
+    <name>ДействуетПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует по</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="d2048251-5b9f-47a7-b4fb-b86794097d19">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УН_ЕдиницаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f469db6f-6cf4-414a-b0ab-41605cd1184b">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>22</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                      </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d4b61cbd-1720-4f4f-a2c0-433cf1f56fbc">
+    <name>ВидИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УН_ВидыИзмерений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fd4d2734-aa43-4451-8ae8-e27aba493010">
+    <name>ДействуетС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

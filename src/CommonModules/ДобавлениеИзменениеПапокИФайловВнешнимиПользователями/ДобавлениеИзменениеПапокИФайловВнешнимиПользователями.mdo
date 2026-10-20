@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5507f09-7cc5-439d-8789-1d4143008290">
+  <name>ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение папок и файлов внешними пользователями</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

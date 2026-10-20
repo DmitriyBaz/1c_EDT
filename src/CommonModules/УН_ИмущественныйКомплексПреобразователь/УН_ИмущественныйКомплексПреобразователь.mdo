@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b879f142-36d0-470a-b939-17709ccf470a">
+  <name>УН_ИмущественныйКомплексПреобразователь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имущественный комплекс Преобразователь</value>
+  </synonym>
+  <comment>Осуществляет связь данных формы и модели</comment>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="973967e5-1702-4fb8-ba36-70fd5b3b7e7c">
+  <producedTypes>
+    <objectType typeId="47321f2f-0ab3-40ca-8419-14c5989b83cc" valueTypeId="b7c649b9-8780-470f-9970-517d3968635e"/>
+    <managerType typeId="7c43ce7e-4dfa-4b9e-b874-4f75b082ea4f" valueTypeId="62a39543-e289-4a54-9e0f-73fb6f466705"/>
+  </producedTypes>
+  <name>РезервноеКопированиеИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервное копирование ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РезервноеКопированиеИБ.Form.РезервноеКопированиеДанных</defaultForm>
+  <attributes uuid="282b089c-7411-40d6-9a0a-ceaf6abb5586">
+    <name>КаталогСРезервнымиКопиями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог с резервными копиями</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выберите каталог для сохранения резервной копии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b3415b4a-d8de-4536-aa4b-82e75fd986ee">
+    <name>ФайлЗагрузкиРезервнойКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл загрузки резервной копии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файл загрузки резервной копии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="bf9e9c2f-e5dc-4f82-8e9a-7f35e3ad9a0b">
+    <name>ВосстановлениеДанныхИзРезервнойКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление данных из резервной копии</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="371361b6-15fd-4e62-9f60-cc8ee3fbacf0">
+    <name>РезервноеКопированиеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервное копирование данных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d8e62f1a-92ca-4971-9609-e79da798c083">
+    <name>ВыполнитьВосстановлениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить восстановление данных</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

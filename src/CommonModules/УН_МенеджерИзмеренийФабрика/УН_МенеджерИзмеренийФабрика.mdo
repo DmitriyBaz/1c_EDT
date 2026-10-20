@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9547415-aae1-48c1-9782-78659d1d9113">
+  <name>УН_МенеджерИзмеренийФабрика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер измерений (фабрика)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

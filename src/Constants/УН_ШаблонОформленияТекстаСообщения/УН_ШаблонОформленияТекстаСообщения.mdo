@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d89c1b8-5214-45dd-a570-575ba9cbb95e">
+  <producedTypes>
+    <managerType typeId="7e3e2e90-8631-4dcc-ba14-6f7c6cfb74ff" valueTypeId="e2b0f49f-e087-4be2-875c-0d913f0f630d"/>
+    <valueManagerType typeId="63c534c7-a813-4b8e-aa9c-b2440bd167d1" valueTypeId="fc18a54b-dabc-4217-9ee5-683b4b4517ad"/>
+    <valueKeyType typeId="86652ffb-56c3-4804-a392-b93292b5d977" valueTypeId="982c5deb-5723-4047-a079-0408f601eadd"/>
+  </producedTypes>
+  <name>УН_ШаблонОформленияТекстаСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица стилей сообщения</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

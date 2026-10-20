@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="136b64fa-bd27-404f-9185-cf684f2fe27b">
+  <producedTypes>
+    <objectType typeId="8d0199d5-3081-40c7-89ac-228d3ec70eac" valueTypeId="eef4452d-9291-48fa-a43c-40b203e7defe"/>
+    <refType typeId="58790d3d-b0bb-4236-a921-ccf8bc835689" valueTypeId="09078fa4-da90-4aac-9d3a-1219d04dacde"/>
+    <selectionType typeId="7a8895bd-d131-46d6-b088-0c38fda85c05" valueTypeId="bc41cad0-68e8-4ee6-954c-6bba34fcd4c7"/>
+    <listType typeId="560db9f5-4011-4a26-b46f-f3368e6de620" valueTypeId="565af953-c9eb-4aab-a4de-c2e58e50efe2"/>
+    <managerType typeId="a4dabd40-f061-4c27-8bcd-8b4a9fbbfa40" valueTypeId="2242e0c8-07e2-471c-924c-338db7491b5b"/>
+  </producedTypes>
+  <name>УН_СтатусныеСхемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусные схемы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_СтатусныеСхемы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_СтатусныеСхемы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>35</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

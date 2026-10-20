@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e16cad0-7db9-4d35-97bd-3ecce96cb436">
+  <producedTypes>
+    <objectType typeId="712a8fb8-7116-4619-8786-6064c458dfa8" valueTypeId="81adc789-4206-4716-a717-95b731060b82"/>
+    <refType typeId="b9371972-3a15-41fd-bcd8-83ea7aaaf2c3" valueTypeId="93836ff4-1d9f-4c0c-b454-b4e2715c9ea9"/>
+    <selectionType typeId="f6af5176-ee44-43c7-a16a-5772029b2b1a" valueTypeId="8c8dc620-e604-4cce-b4a3-9ccab1afe98d"/>
+    <listType typeId="f3bdae04-afc7-4976-9b9c-2cb20bda6381" valueTypeId="edd7f146-c776-4492-bc2b-d0f906f8a4d1"/>
+    <managerType typeId="7e4939ff-0554-49e7-8b72-fecd64272745" valueTypeId="88e24613-c879-40ab-b523-2470f6a531e2"/>
+    <containerType typeId="3cb7234c-6baa-46b4-8ee2-7f7c338e8452" valueTypeId="2d24fa50-e1df-4d12-ab76-aa73d656e90e"/>
+  </producedTypes>
+  <name>ПланВидовХарактеристик1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПланВидовХарактеристик1.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПланВидовХарактеристик1.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="415e559e-223c-48a7-bbad-b059d636842a">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="940f0e55-176c-4319-b6db-9f91ab7853e0">
+  <name>ЗапускТонкогоКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск тонкого клиента</value>
+  </synonym>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

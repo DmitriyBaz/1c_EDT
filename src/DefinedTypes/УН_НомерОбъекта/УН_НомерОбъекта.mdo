@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe6328d2-a9ef-4718-9851-335e0d9bf6a0">
+  <producedTypes>
+    <containerType typeId="84714d07-38d3-4175-9a14-8655b64c196d" valueTypeId="cf906d5a-43df-480c-8d40-76484717e83c"/>
+  </producedTypes>
+  <name>УН_НомерОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Альтернативный номер объекта. Используется в сервисе нумерации</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>9</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

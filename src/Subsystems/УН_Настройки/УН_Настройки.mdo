@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="748bc300-925d-456f-8aef-8c22f8fb41a4">
+  <name>УН_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит объекты, которые являются настройками (предназначены для конфигурирования решения)</value>
+  </explanation>
+  <content>Catalog.УН_ГруппыПолномочий</content>
+  <content>Constant.УН_ЗданияАктивны</content>
+  <content>Constant.УН_ЗемельныеУчасткиАктивны</content>
+  <content>Constant.УН_ЛинейныеОбъектыАктивны</content>
+  <content>Constant.УН_ЭтажиАктивны</content>
+  <content>Constant.УН_ПомещенияАктивны</content>
+  <content>Constant.УН_ОбъектыАрендыАктивны</content>
+  <content>Constant.УН_ОбъектыПраваАктивны</content>
+  <content>Constant.УН_ДоговорыПоНедвижимостиАктивны</content>
+  <content>Constant.УН_ЗаявкиНаОбслуживаниеАктивны</content>
+  <content>Constant.УН_ШаблонОформленияТекстаСообщения</content>
+  <content>Constant.УН_ФорматПредставленияСроковДействия</content>
+  <content>Constant.УН_МинимальнаяДата</content>
+  <content>Constant.УН_ЗоныОУИТАктивны</content>
+  <content>CommonTemplate.УН_ШаблонОформленияТекстаСообщения_Стандартный</content>
+  <content>DataProcessor.УН_НастройкаРуководстваПоВнедрению</content>
+  <content>Catalog.УН_БизнесОбъекты</content>
+  <content>Catalog.УН_ПредметныеОбласти</content>
+  <content>Catalog.УН_ОбъектыЖурналаСообщений</content>
+  <content>Catalog.УН_ТипыИмущественныхКомплексов</content>
+  <content>Catalog.УН_ВидыИзмерений</content>
+  <content>Catalog.УН_ЕдиницыИзмерения</content>
+  <content>Catalog.УН_ФункцииДляИмущественныхКомплексов</content>
+  <content>Catalog.УН_ФункцииДляЗданий</content>
+  <content>Catalog.УН_ТипыЗданий</content>
+  <content>Catalog.УН_ОбщиеФункции</content>
+  <content>Catalog.УН_ШаблоныСообщений</content>
+  <content>Catalog.УН_СтатусныеСхемы</content>
+  <content>DataProcessor.УН_РуководствоПоВнедрению</content>
+  <content>InformationRegister.УН_Расширения</content>
+  <content>InformationRegister.УН_НастройкаСообщений</content>
+  <content>CommonForm.УН_СрокиДействия</content>
+  <content>Constant.УН_РежимИспользованияЗдания</content>
+  <content>Constant.УН_МаксимальнаяДата</content>
+  <content>Constant.УН_УправлениеИмуществомАктивно</content>
+  <content>CommonForm.УН_АктивацияУправленияНедвижимостью</content>
+  <content>CommonForm.УН_АктивацияБизнесОбъектов</content>
+  <content>Catalog.УН_ОбъектыНумерации</content>
+  <content>InformationRegister.УН_ДиапазоныНомеров</content>
+</mdclass:Subsystem>

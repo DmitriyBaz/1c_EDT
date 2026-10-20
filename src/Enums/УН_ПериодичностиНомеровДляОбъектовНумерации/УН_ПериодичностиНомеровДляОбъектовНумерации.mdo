@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a09e9db-cf31-4c8f-936b-f4ab26d47888">
+  <producedTypes>
+    <refType typeId="a0acf0e0-de1b-4a5a-a514-774ae52a3324" valueTypeId="1a22ba08-cba4-4ce0-9d51-5b5f08093ff2"/>
+    <listType typeId="a381c119-0015-42cb-9943-82af32fc8ee9" valueTypeId="55eb3f43-2218-4fa2-9699-ca3eaab3075c"/>
+    <managerType typeId="95b0cce9-9d5f-4b35-8015-a28269cc610d" valueTypeId="ea97549e-b5bd-4cf7-984e-df0d775fef47"/>
+  </producedTypes>
+  <name>УН_ПериодичностиНомеровДляОбъектовНумерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичности номеров для Объектов нумерации</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет длительность временного интервала, в рамках которого номер должен быть уникальным</value>
+  </explanation>
+  <enumValues uuid="45e76311-bcc1-495a-8598-4589c98e88a6">
+    <name>НеИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26e872e7-0542-40a1-be93-80629a211986">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6bfa9839-b91a-4108-8144-1797491d433a">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="689a5b23-459f-4fbc-b16c-0bf1f2fea399">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

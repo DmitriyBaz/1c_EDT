@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a1a0ab3-234e-4312-b98f-b7bead8c47e0">
+  <name>УН_ПользовательскийИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользовательский интерфейс</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема содержит объекты, которые должны выводиться в пользовательский интерфейс.</value>
+  </explanation>
+  <content>DataProcessor.УН_Навигатор</content>
+  <content>DataProcessor.УН_ЖурналСообщений</content>
+  <content>DataProcessor.УН_ОтчетПоИзменениям</content>
+  <content>Report.УН_СписокОбъектовНедвижимости</content>
+</mdclass:Subsystem>

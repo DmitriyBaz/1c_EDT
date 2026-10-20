@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="256618cc-0956-4cda-9691-e4ced68a791f">
+  <producedTypes>
+    <objectType typeId="9c386f81-1d42-4379-b84b-d7561fca068a" valueTypeId="fe6af041-75b3-4960-a9b3-b6e98cf5e435"/>
+    <managerType typeId="ea5d5267-7e47-4178-933c-4d61bc903c93" valueTypeId="5464a14e-5432-4a89-9b47-379a3d7a9315"/>
+  </producedTypes>
+  <name>ОценкаПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОценкаПроизводительности.Form.АвтоматическийЭкспортЗамеровПроизводительности</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f5b66759-8102-4cba-a3fd-ee96db5bc809">
+    <name>АвтоматическийЭкспортЗамеровПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматический экспорт замеров производительности</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af6bccbb-a6cb-41ee-bc4e-f2d6a5e0f419">
+    <name>ЭкспортЗамеровПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт замеров производительности</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d08679db-f83f-476e-b8c4-f3f52c3cf6fd">
+    <name>ИмпортЗамеровПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт замеров производительности</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fad0898f-5769-46ab-bc5e-301924b851a0">
+    <name>ПодборЦелевогоВремениКлючевойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор целевого времени ключевой операции</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e0227e4b-be22-4614-8980-5d573fae705d">
+    <name>НастройкиОценкиПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки оценки производительности</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="7a7b7882-a4c1-40c8-a807-cb2d71d054cc">
+    <name>ЭкспортЗамеровПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт замеров производительности</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="6f36007b-04dc-4007-abf7-e20fbd126b97">
+    <name>ИмпортЗамеровПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт замеров производительности</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

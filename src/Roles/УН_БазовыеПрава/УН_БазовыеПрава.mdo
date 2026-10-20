@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0d383e8-6c05-4026-9e6b-4104360e2f9c">
+  <name>УН_БазовыеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права (Управление недвижимостью)</value>
+  </synonym>
+</mdclass:Role>

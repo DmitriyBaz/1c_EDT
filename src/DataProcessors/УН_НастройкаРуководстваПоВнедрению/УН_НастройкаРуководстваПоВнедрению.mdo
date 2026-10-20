@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcb5b782-dd51-4dc9-aa94-02ea702b7026">
+  <producedTypes>
+    <objectType typeId="0a5318d7-0cd1-4c3b-93bc-d17fb9da37e9" valueTypeId="dfb4915a-1587-4a59-b2b8-36c31df20171"/>
+    <managerType typeId="ffe5217b-bcb4-472c-8832-2e91a2949526" valueTypeId="8afdf722-6ba0-4bce-98c8-c3cae9b7a773"/>
+  </producedTypes>
+  <name>УН_НастройкаРуководстваПоВнедрению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка Руководства по внедрению</value>
+  </synonym>
+  <comment>D-0007 Общие разработки по недвижимости</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УН_НастройкаРуководстваПоВнедрению.Form.ФормаРеестрНастроек</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка предназначена для редактирования настроек: добавления новых настроек, изменения, удаления, ведения документации</value>
+  </explanation>
+  <forms uuid="637aef8e-68e6-4a82-b662-f066b0927f66">
+    <name>ФормаРеестрНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3567b589-ffc0-4d5a-94b3-0c0836f5cfaf">
+    <name>ФормаДанныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

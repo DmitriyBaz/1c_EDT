@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63cd7d6a-4ae0-4921-8af4-4263d707fac2">
+  <producedTypes>
+    <objectType typeId="4120d499-39d6-46a2-824c-df0c2a85840a" valueTypeId="ddbb3bab-fd87-4cfa-af9a-61849833aca9"/>
+    <refType typeId="7215108d-0834-4884-95d5-bd590a7fa062" valueTypeId="d30bc436-f7f0-4615-91cd-be326d805fc9"/>
+    <selectionType typeId="5135ab98-e253-4997-8fd2-fc8687e28b12" valueTypeId="0422f34e-a620-4f04-bb13-6c18c061403d"/>
+    <listType typeId="3b149258-975a-4631-99a0-6e8722b91a97" valueTypeId="fedcbdaf-d496-4815-839d-247615b638c2"/>
+    <managerType typeId="de23025a-3820-4b87-8266-6c3071c4f960" valueTypeId="eaa98e1c-d769-4a59-98f3-036ef70c44a8"/>
+  </producedTypes>
+  <name>УН_ТипыЗданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы зданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УН_ТипыЗданий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УН_ТипыЗданий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c0fc645d-40a0-4eaa-ae6f-baaad5d2495a">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5926b0c2-c523-4d9b-a146-9f7f47191b13">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66c6200f-3bcf-4ff1-9d42-6ec7ffe631fa">
+    <name>СимволРазделитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Символ разделитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value> </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a35e1213-19db-4ca5-b661-5a553e1e2ac5">
+    <name>ИспользоватьЛидирующиеНули</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать лидирующие нули</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1e2b129-09a1-42c6-901c-b33ebac2fb36">
+    <name>Устарело</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устарело</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

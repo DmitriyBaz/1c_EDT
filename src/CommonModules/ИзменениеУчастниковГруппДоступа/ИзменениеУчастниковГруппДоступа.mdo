@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="222d94a5-bac6-47f9-86bc-ce078f1ec46f">
+  <name>ИзменениеУчастниковГруппДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение участников групп доступа</value>
+  </synonym>
+  <comment>Содержит поставляемые стандартные шаблоны ограничения доступа</comment>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
