@@ -10,14 +10,6 @@
     <value>EDT отчет</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <templates uuid="c07a4eaf-daef-4297-9a82-8eb2c322bbfb">
-    <name>Макет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Макет</value>
-    </synonym>
-    <templateType>DataCompositionAppearanceTemplate</templateType>
-  </templates>
   <templates uuid="f1f0f2da-cc74-4e76-b59e-27a4535b3fc1">
     <name>Макет1</name>
     <synonym>
