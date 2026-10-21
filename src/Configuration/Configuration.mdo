@@ -1605,6 +1605,7 @@
   <catalogs>Catalog.УН_ГруппыОбъектов</catalogs>
   <catalogs>Catalog.ПравилаПроверкиУчета</catalogs>
   <catalogs>Catalog.УН_ОбъектыНумерации</catalogs>
+  <catalogs>Catalog.EDT_Справки</catalogs>
   <documents>Document.Документ1</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
