@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="473cbad5-1d5a-4099-bd47-c90cdeb965c7">
+  <producedTypes>
+    <objectType typeId="15b9e6c2-029e-435a-8611-c7a7f7ed6d86" valueTypeId="bed7c8a5-eab3-4cd2-abd6-ec40a224c8d5"/>
+    <refType typeId="474caa57-c714-4349-a094-942f3694ed6f" valueTypeId="a42b5163-7d6b-4084-b844-9e25a418bacf"/>
+    <selectionType typeId="f12954e1-858a-4b77-8448-57fc951678f1" valueTypeId="8aea050e-183d-48c3-8247-bf709ebc8ea8"/>
+    <listType typeId="d0159dad-ca0d-40a9-983a-0f0117d85318" valueTypeId="c2a64564-d4ed-44ac-9b11-bcae54ec056c"/>
+    <managerType typeId="d7f99af2-233a-4579-b2f9-e61d19e365f5" valueTypeId="aa72a559-26cf-43f2-9d97-0e8a1737c5f8"/>
+  </producedTypes>
+  <name>EDT_Справки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.EDT_Справки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

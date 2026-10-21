@@ -1089,6 +1089,7 @@
   <commonModules>CommonModule.УН_НастройкиКлиент</commonModules>
   <commonModules>CommonModule.УН_НастройкиВызовСервера</commonModules>
   <commonModules>CommonModule.УН_СервисНумерации</commonModules>
+  <commonModules>CommonModule.EDT_СправкиНаСервере</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык2</commonAttributes>
@@ -1155,6 +1156,7 @@
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УН_УстановитьПрефиксИнформационнойБазы</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.EDT_ПриЗаписиДокументаСправок</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИсправлениеУстаревшихАдресов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
@@ -1615,6 +1617,7 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <documents>Document.EDT_Справки</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
   <enums>Enum.ВариантыВажностиВзаимодействия</enums>

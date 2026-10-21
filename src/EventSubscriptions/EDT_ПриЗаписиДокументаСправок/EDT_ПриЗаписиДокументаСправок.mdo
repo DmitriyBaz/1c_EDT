@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8dc6981-3ec4-47ed-8bb8-0580f22bda31">
+  <name>EDT_ПриЗаписиДокументаСправок</name>
+  <synonym>
+    <key>ru</key>
+    <value>EDT при записи документа справок</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.EDT_Справки</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.EDT_СправкиНаСервере.СправкаПриЗаписи</handler>
+</mdclass:EventSubscription>
