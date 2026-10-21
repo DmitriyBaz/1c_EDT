@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0592b644-905d-4542-a977-3c9935852e10">
+  <producedTypes>
+    <objectType typeId="8647ca7c-804c-4975-8c11-1ff56b69072f" valueTypeId="bbf492f2-6a71-4299-8b78-244acbb7ebba"/>
+    <managerType typeId="ffe41b54-dedd-4dc1-bea5-802610cdd619" valueTypeId="0e80791b-a9af-4073-839c-31ecaf78671a"/>
+  </producedTypes>
+  <name>EDT_Отчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>EDT отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="f1f0f2da-cc74-4e76-b59e-27a4535b3fc1">
+    <name>Макет1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
